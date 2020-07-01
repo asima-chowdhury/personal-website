@@ -99,6 +99,53 @@ section{
 .js{
     width: 85%;
 }
+.timeline-area{
+    background-color: #ececec;
+}
+.timeline-heading {
+    text-align: center;
+}
+.experience{
+    margin: 40px auto;
+    width: 50%;
+    border-left: 2px solid #ccc;
+    padding: 0 20px 0 30px;
+}
+.single-experience h2{
+    font-size: 23px;
+}
+.single-experience {
+	background-image: linear-gradient(-45deg,#EC5299,#ED4B6F);
+	padding: 10px 25px;
+	font-size: 16px;
+	border: 1px solid #ccc;
+	position: relative;
+    margin: 10px 0px;
+    color: white;
+}
+.single-experience::before{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ED4B6F;
+    border: 3px solid #dddddd;
+    top: 10px;
+    left: -40px;
+}
+.single-experience::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: transparent #ED4B6F transparent transparent;
+    border-width: 8px;
+    top: 10px;
+    left: -17px;
+}
 .client-area{
     text-align: center;
     background-image: url("images/client-bg.png"); 
