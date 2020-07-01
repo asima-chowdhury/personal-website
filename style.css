@@ -66,7 +66,39 @@ section{
     background-image: url("images/latest-work-bg.png");
     background-size: cover;
 }
-
+.skill-area h2{
+    padding-bottom: 60px;
+    text-align: center;
+}
+.skill-area{
+    width: 500px;
+    height: 400px;
+    margin-left: 32%;
+}
+.skill-area li{
+    margin: 20px 0;
+    list-style: none;
+}
+.bar {
+	background-color: #d713138f;
+	display: block;
+	height: 2px;
+	border: 1px solid #d01111;
+	border-radius: 3px;
+	box-shadow: 0 0 10px #e7219a;
+}
+.html{
+    width: 95%;
+}
+.css{
+    width: 90%;
+}
+.react{
+    width: 80%;
+}
+.js{
+    width: 85%;
+}
 .client-area{
     text-align: center;
     background-image: url("images/client-bg.png"); 
@@ -99,20 +131,6 @@ section{
 .contact-info p{
     color: white;
     padding: 0;
-}
-.skill-area{
-    text-align: center;
-    width: 50%;
-    margin-left: 25%;
-}
-.single-skill{
-    height: 10%;
-    background-image: linear-gradient(45deg,#EC5299,#ED4B6F);
-    border-radius: 25px;
-}
-.single-skill h3{
-    padding-top: 15px;
-    color: white;
 }
 footer {
     text-align: center;
