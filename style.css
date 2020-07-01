@@ -4,12 +4,12 @@ body{
 }
 h1{
     font-family: 'Poppins', sans-serif;
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 800;
     margin-top: 0;
 }
 h2{
-    font-size: 30px;
+    font-size: 40px;
     margin-bottom: 20px;
 }
 p{
@@ -37,7 +37,6 @@ p{
 }
 .header-area{
     background-image: url("images/header-bg.png"); 
-    background-repeat: no-repeat;
     background-size: cover;
 }
 section{
@@ -46,7 +45,6 @@ section{
 }
 .biography-area{
     background-image: url("images/biography-bg.png");
-    background-repeat: no-repeat;
     background-size: cover;
 }
 .biography-area h2{
@@ -66,4 +64,56 @@ section{
 }
 .latest-work-area{
     background-image: url("images/latest-work-bg.png");
+    background-size: cover;
+}
+
+.client-area{
+    text-align: center;
+    background-image: url("images/client-bg.png"); 
+    background-size: cover;
+}
+.client-review h3{
+    padding-top: 50px;
+    margin: 10px;
+    color:#2E3235;
+}
+.client-review h5{
+    margin: 0;
+    padding: 0;
+    color: #9A9A9A;
+}
+.client-review p{
+    color: #3b3b3b;
+    font-weight: 600;
+    padding-top: 20px;
+}
+.contact-info {
+	color: white;
+	background-image: linear-gradient(45deg,#EC5299,#ED4B6F);
+	width: 55%;
+	height: 28%;
+	border-radius: 10px;
+	margin-left: 23%;
+	padding-top: 40px;
+}
+.contact-info p{
+    color: white;
+    padding: 0;
+}
+.skill-area{
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+}
+.single-skill{
+    height: 10%;
+    background-image: linear-gradient(45deg,#EC5299,#ED4B6F);
+    border-radius: 25px;
+}
+.single-skill h3{
+    padding-top: 15px;
+    color: white;
+}
+footer {
+    text-align: center;
 }
